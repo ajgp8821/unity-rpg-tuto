@@ -36,3 +36,4 @@ public class CameraController : MonoBehaviour {
         transform.position += new Vector3(delta.x, delta.y, 0);
     }
 }
+// https://youtu.be/b8YUfee_pzc?t=5422
