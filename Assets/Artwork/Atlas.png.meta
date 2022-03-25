@@ -1216,6 +1216,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: chest_1_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f3da2e60451943b2526c944c4cb98
+      internalID: 343338277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_1_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be74a31a7c707764999f0b5381c2c705
+      internalID: -957423803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_1_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e1c7303d3db3c4ba82723592d80f9d
+      internalID: -1098776770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_2_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826b0f7604f96284bb8f5fda7a169463
+      internalID: 2134389456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_2_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0620c7d924ca6984e9db037bbe9be15a
+      internalID: -1259061313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_2_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb3b1cd84ded44696949873e27d532
+      internalID: 25640836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1233,17 +1359,21 @@ TextureImporter:
       wall_0: -1643169715
       torch_0: 1095431549
       stairs_1: -1942113271
+      chest_1_0: 1528701298
       floor_7: 1047370974
       wall_1: -1920078323
       floor_5: 686089645
       torch_2: -867556090
+      chest_2_0: 25640836
       player_0: -122841448
       floor_4: 594529511
       wall_3: 1374782547
       wall_5: -835286982
+      chest_2_1: -1259061313
       torch_6: 1411233207
       crate_2: -1040855818
       pilar_1: -351284166
+      chest_1_2: -1098776770
       healingFountain_0: -472386755
       torch_3: -232557894
       crate_3: 243383273
@@ -1279,7 +1409,8 @@ TextureImporter:
       stairs_4: -1513245250
       stairs_3: 1139929851
       wall_7: -770067435
-      Atlas_0: 1528701298
+      chest_2_2: 2134389456
+      chest_1_1: -957423803
       crate_1: 1446338812
   spritePackingTag: 
   pSDRemoveMatte: 0
