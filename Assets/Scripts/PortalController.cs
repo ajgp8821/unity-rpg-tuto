@@ -11,6 +11,7 @@ public class PortalController : CollectableController {
         // base.OnCollide(coll);
         if (coll.name == "Player") {
             // Teleport the player
+            GameManager.instance.SaveState();
             string sceneName = sceneNames[Random.Range(0, sceneNames.Length)];
             SceneManager.LoadScene(sceneName);
         }
