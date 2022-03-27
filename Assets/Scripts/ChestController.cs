@@ -13,7 +13,8 @@ public class ChestController : CollectableController {
         if (!collected) {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            Debug.Log("Grand " + pesosAmount + " pesos");
+            // Debug.Log("Grand " + pesosAmount + " pesos");
+            GameManager.instance.ShowText("+" + pesosAmount + " pesos!", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f);
         }
     }
 }

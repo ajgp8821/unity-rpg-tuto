@@ -8,6 +8,9 @@ public class PortalController : CollectableController {
     public string[] sceneNames;
 
     protected override void OnCollide(Collider2D coll) {
+
+        // GameManager.instance.ShowText();
+
         // base.OnCollide(coll);
         if (coll.name == "Player") {
             // Teleport the player
