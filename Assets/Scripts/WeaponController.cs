@@ -14,19 +14,21 @@ public class WeaponController : CollidableController {
     private SpriteRenderer spriteRenderer;
 
     // Swing
+    private Animator anim;
     private float coolDown = 0.5f;
     private float lastSwing;
 
     protected override void Start() {
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     protected override void Update() {
         base.Update();
 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            if (Time.time - lastSwing < coolDown) {
+            if (Time.time - lastSwing > coolDown) {
                 lastSwing = Time.time;
                 Swing();
             }
@@ -54,6 +56,7 @@ public class WeaponController : CollidableController {
     }
 
     private void Swing() {
-        Debug.Log("Swing");
+        // Debug.Log("Swing");
+        anim.SetTrigger("Swing");
     }
 }
