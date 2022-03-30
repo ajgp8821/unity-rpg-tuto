@@ -74,7 +74,8 @@ public class EnemyController : MoverController {
     protected override void Death() {
         // base.Death();
         Destroy(gameObject);
-        GameManager.instance.experience += xpValue;
+        // GameManager.instance.experience += xpValue;
+        GameManager.instance.GrantXp(xpValue);
         GameManager.instance.ShowText("+" + xpValue + " xp", 30, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
     }
 }
